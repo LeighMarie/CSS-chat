@@ -1,0 +1,47 @@
+/*h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+
+#chatTitle {
+    color: red;
+    font-size: 4em;
+}
+
+
+.username{
+    color: #7abafa;
+}
+
+#sendChat{
+    font-size: 12pt;
+    height: 35px;
+    vertical-align: top;
+    font-family:"Times New Roman";
+}
+
+#userChatTextarea{
+    width: 250px;
+    height: 30px;
+    
+}
+
+#chatHistory{
+    height: 75px;
+    font-family:"Times New Roman";
+}*/
+
+/* this is a comment */
+/* I could have also made this comment with edit -> toggle line/block comment in brackets */
+/* can hide things with visibility: hidden (but still there); can "delete" with display: none
+h1, div are block elements (take up whole line)
+button, widgets are inline elements (rendered next to previous element)*/
+
+body {
+  padding-top: 50px;
+}
+
+

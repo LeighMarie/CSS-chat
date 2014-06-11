@@ -1,0 +1,54 @@
+<!-- this is the interface of the apple-calculator (like the one you would use on macs but not functioning) -->
+<!DOCTYPE html>
+<html>
+<head>   
+    <link href="apple-calculator.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- div for whole calculator contains divs for each row of the calculator -->
+    <div id="calculator">
+        <div> <div id="displayBox"> <textarea id="display"></textarea> </div>
+        <div class="buttonRow"> 
+            <button class='calButton'>MC</button> 
+            <button class='calButton'>M+</button> 
+            <button class='calButton'>M&minus;</button> 
+            <button class='calButton'>MR</button> 
+        </div>
+        <div class="buttonRow"> 
+            <button class='calButton'>C</button> 
+            <button class='calButton'>&plusmn;</button> 
+            <button class='calButton'>&divide;</button> 
+            <button class='calButton'>&times;</button> 
+        </div>
+        <div class="buttonRow"> 
+            <button class='calButton'>7</button> 
+            <button class='calButton'>8</button> 
+            <button class='calButton'>9</button> 
+            <button class='calButton'>&minus;</button> 
+        </div>
+        <div class="buttonRow"> 
+            <button class='calButton'>4</button> 
+            <button class='calButton'>5</button> 
+            <button class='calButton'>6</button> 
+            <button class='calButton'>+</button> 
+        </div>
+        <div id = "equalsRow">
+        <div class="buttonRow"> 
+            <button class='calButton'>1</button> 
+            <button class='calButton'>2</button> 
+            <button class='calButton'>3</button> 
+        </div>
+         <div class="buttonRow"> 
+            <button class='calButton' id='zeroButton'>0</button> 
+            <button class='calButton'>.</button> 
+        </div>
+        </div>            
+        <button class='calButton' id="equalsButton">&equals;</button>          
+    </div>
+    
+</body>
+
+</html>
+
